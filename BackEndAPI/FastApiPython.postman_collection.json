@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "af800083-707a-467f-95b8-d747c6a613aa",
+		"name": "FastApiPython",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39401588"
+	},
+	"item": [
+		{
+			"name": "BuscarNome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/buscar-operadoras?termo=ODONTOLOGIA\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"buscar-operadoras"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "ODONTOLOGIA\n"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

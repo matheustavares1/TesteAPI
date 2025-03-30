@@ -1,0 +1,32 @@
+# Ignorar dependências do Python
+venv/
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+.env
+.env.*
+
+# Ignorar dependências do Node.js
+node_modules/
+dist/
+build/
+npm-debug.log
+yarn-error.log
+
+# Ignorar arquivos do Docker
+docker-compose.override.yml
+*.pid
+*.log
+
+# Ignorar arquivos do VS Code e PyCharm
+.vscode/
+.idea/
+*.iml
+
+# Ignorar logs e arquivos temporários
+*.log
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
